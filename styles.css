@@ -1,6 +1,7 @@
 *{
     margin: 0;
 }
+/* Header and Nav */
 header {
     background-color: #1f2937;
     
@@ -37,6 +38,8 @@ padding: 0 60px;
     justify-content: center;
 }
 
+/* Text and photo section */
+
 .first_section_text {
     justify-content: center;
     text-align: center;
@@ -60,6 +63,7 @@ button {
     color: #F9FAF8;
 }
 
+/* Random Information Section */
 main {
     display: flex;
     flex-direction: column;
@@ -99,7 +103,7 @@ main h2 {
     width: 160px;
     height: 160px;
 }
-
+/* Quote Section */
 .third_section {
     display: flex;
     flex-direction: column;
@@ -127,6 +131,7 @@ main h2 {
     align-items: center;
     padding: 5em 13em;
 }
+/* Call to action */
 
 .call_to_action {
     display: flex;
@@ -141,7 +146,7 @@ main h2 {
 .call_to_action button{
     border: 2px solid #FFF;
 }
-
+/* Footer section */
 footer {
     background-color: #1f2937;
     color:  #FFF;
